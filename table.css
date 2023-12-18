@@ -1,0 +1,174 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .nav-item{
+    margin-right: 30px;
+  }
+  
+  .b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+      inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+  }
+  
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+  
+  .bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+  }
+  
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+  
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .btn-bd-primary {
+    --bd-violet-bg: #712cf9;
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #6528e0;
+    --bs-btn-hover-border-color: #6528e0;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #5a23c8;
+    --bs-btn-active-border-color: #5a23c8;
+  }
+  
+  .bd-mode-toggle {
+    z-index: 1500;
+  }
+  
+  .bd-mode-toggle .dropdown-menu .active .bi {
+    display: block !important;
+  }
+  
+  .b-example-divider {
+    height: 20px;
+  }
+  
+  #headerColor {
+    width: 100vw;
+    height: 70px;
+    background-color: white;
+    margin-bottom: 15px;
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .nav-pills {
+    margin: 0; /* 기본 리스트 마진 제거 */
+  }
+
+  .nav-item {
+    margin-right: 20px; /* 각 네비게이션 아이템 간격 조정 */
+  }
+  
+  body {
+    background-color: #f0f0f0;
+  }
+  
+  #mainContent {
+    width: 99%;
+    height: 570px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    position: relative;
+    /* 부모 요소로 설정 */
+  }
+  
+  .table{
+    width: 98%;
+    margin: 13px;
+    border-color: #bbb;
+  }
+  
+  #pagenav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 3px 25px 5px 0px
+    /* 여백 설정 */
+  }
+  
+  #bottomBtn {
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  .bottomBtn1 {
+    width: 80px;
+    margin: 0px 5px 0px 5px;
+  }
+  
+  .searchBox {
+    width: 400px;
+    margin-left: auto;
+    /* 나머지 공간을 모두 사용하고 오른쪽으로 정렬 */
+    display: flex;
+    /* flex로 설정하여 내부 요소를 가로로 배열 */
+    align-items: center;
+    /* 세로 방향으로 중앙 정렬 */
+  }
+  
+  .searchBox input {
+    flex: 1;
+    /* 나머지 공간을 모두 사용하도록 설정 */
+  }
+  
+  .searchBox button {
+    margin-left: 10px;
+    /* 버튼과 입력창 사이의 여백 추가 */
+  }
+
+  #imageCenter {
+    text-align: center;
+  }
+

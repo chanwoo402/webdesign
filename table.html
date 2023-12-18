@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <script src="/docs/5.3/assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.118.2" />
+    <title>table page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/headers/"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"
+    />
+
+    <link
+      href="/docs/5.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      href="/docs/5.3/assets/img/favicons/apple-touch-icon.png"
+      sizes="180x180"
+    />
+    <link
+      rel="icon"
+      href="/docs/5.3/assets/img/favicons/favicon-32x32.png"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="/docs/5.3/assets/img/favicons/favicon-16x16.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg"
+      color="#712cf9"
+    />
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico" />
+    <meta name="theme-color" content="#712cf9" />
+    <link rel="stylesheet" href="./table.css" />
+  </head>
+  <body>
+    <main>
+      <div id="headerColor">
+        <div class="container">
+          <header class="d-flex justify-content-between align-items-center py-3">
+            <div>
+              <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link"><img src="https://cdn-icons-png.flaticon.com/128/4849/4849108.png" alt="" style="width: 15px; height: 15px;"> 접수</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><img src="https://cdn-icons-png.flaticon.com/128/4849/4849108.png" alt="" style="width: 15px; height: 15px;"> 접수 관리</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><img src="https://cdn-icons-png.flaticon.com/128/4849/4849108.png" alt="" style="width: 15px; height: 15px;"> 계정</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link"><img src="https://cdn-icons-png.flaticon.com/128/10908/10908453.png" alt="" style="width: 15px; height: 15px;"> 로그아웃</a></li>
+              </ul>
+            </div>
+          </header>
+        </div>
+      </div>
+
+
+      <div id="mainContent">
+
+        <span style="font-size: x-large; color: blue; margin: 20px;">
+          <img src="https://cdn-icons-png.flaticon.com/128/15/15094.png" alt="" style="width: 30px; height: 30px;"></li>  접수 목록</span>
+        <hr>
+        <form class="d-flex " role="search">
+          <span style="color: #0a0a0a; border: 1px solid #ddd; padding: 3px 20px 3px 20px; border-radius: 10%; margin-left: 12px;">2022.22.22</span>
+          <div class="searchBox" style="margin-right: 17px;">
+            <input class="form-control me-2 s" type="search" placeholder="검색" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">검색</button>
+          </div>
+        </form>
+
+        
+
+
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">업체 ID</th>
+              <th scope="col">업태</th>
+              <th scope="col">업체명</th>
+              <th scope="col">환자명</th>
+              <th scope="col">종류</th>
+              <th scope="col">치식</th>
+              <th scope="col">접수일시</th>
+              <th scope="col">상태</th>
+              <th scope="col">배송일시</th>
+              <th scope="col">비고</th>
+              <th scope="col">Scan</th>
+              <th scope="col">Modeling</th>
+              <th scope="col">Zip</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>DE0001</td>
+              <td>치과의원</td>
+              <td>A치과</td>
+              <td>A씨</td>
+              <td>A</td>
+              <td>4</td>
+              <td>20xx.xx.xx xx:xx</td>
+              <td>작성완료</td>
+              <td>20xx.xx.xx xx:xx</td>
+              <td> </td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>DE0002</td>
+              <td>치과의원</td>
+              <td>A치과</td>
+              <td>A씨</td>
+              <td>A</td>
+              <td>4</td>
+              <td>20xx.xx.xx xx:xx</td>
+              <td>작성완료</td>
+              <td>20xx.xx.xx xx:xx</td>
+              <td> </td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>DE0003</td>
+              <td>치과의원</td>
+              <td>A치과</td>
+              <td>A씨</td>
+              <td>A</td>
+              <td>4</td>
+              <td>20xx.xx.xx xx:xx</td>
+              <td>작성완료</td>
+              <td>20xx.xx.xx xx:xx</td>
+              <td> </td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>DE0004</td>
+              <td>치과의원</td>
+              <td>A치과</td>
+              <td>A씨</td>
+              <td>A</td>
+              <td>4</td>
+              <td>20xx.xx.xx xx:xx</td>
+              <td>작성완료</td>
+              <td>20xx.xx.xx xx:xx</td>
+              <td> </td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>DE0005</td>
+              <td>치과의원</td>
+              <td>A치과</td>
+              <td>A씨</td>
+              <td>A</td>
+              <td>4</td>
+              <td>20xx.xx.xx xx:xx</td>
+              <td>작성완료</td>
+              <td>20xx.xx.xx xx:xx</td>
+              <td> </td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>DE0006</td>
+              <td>치과의원</td>
+              <td>A치과</td>
+              <td>A씨</td>
+              <td>A</td>
+              <td>4</td>
+              <td>20xx.xx.xx xx:xx</td>
+              <td>작성완료</td>
+              <td>20xx.xx.xx xx:xx</td>
+              <td> </td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>DE0007</td>
+              <td>치과의원</td>
+              <td>A치과</td>
+              <td>A씨</td>
+              <td>A</td>
+              <td>4</td>
+              <td>20xx.xx.xx xx:xx</td>
+              <td>작성완료</td>
+              <td>20xx.xx.xx xx:xx</td>
+              <td> </td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td>DE0008</td>
+              <td>치과의원</td>
+              <td>A치과</td>
+              <td>A씨</td>
+              <td>A</td>
+              <td>4</td>
+              <td>20xx.xx.xx xx:xx</td>
+              <td>작성완료</td>
+              <td>20xx.xx.xx xx:xx</td>
+              <td> </td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+              <td id="imageCenter"><img src="https://cdn-icons-png.flaticon.com/128/6231/6231673.png" alt="" width="20px" height="20px"></td>
+            </tr>
+            
+          </tbody>
+        </table>
+
+        <div id="pagenav">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div id="bottomBtn">
+        <button type="button" class="btn btn-outline-info bottomBtn1">저장</button>
+        <button type="button" class="btn btn-outline-info bottomBtn1">이전</button>
+        <button type="button" class="btn btn-outline-info bottomBtn1">다음</button>
+      </div>
+      
+    </main>
+    <script
+      src="/docs/5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
